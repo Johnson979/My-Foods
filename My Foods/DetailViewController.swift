@@ -10,29 +10,51 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet weak var productImageView: UIImageView!
+    //@IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
     var detailItem: AnyObject? {
         didSet {
             // Update the view.
-            self.configureView()
+            //self.configureView()
         }
     }
+    var productName: NSString? {
+        didSet {
+            
+        }
+    }
+    
+    
+    var productURL: NSString? {
+        didSet {
+            // Update the view.
+            // self.configureView()
+        }
+    }
+    
 
     func configureView() {
         // Update the user interface for the detail item.
         if let detail: AnyObject = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
-            }
+            productImageView.image = UIImage(named:productURL!)
+            
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        println("Product URL: \(productURL)")
+        println("Product Name: \(productName)")
+        if productName == nil
+        {
+            productImageView.image = UIImage(named:"index.jpg")
+        }
+        title = productName
         self.configureView()
+
     }
 
     override func didReceiveMemoryWarning() {

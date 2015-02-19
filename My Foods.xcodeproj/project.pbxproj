@@ -14,6 +14,17 @@
 		9DB6BE081A9686FE007FC048 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE071A9686FE007FC048 /* Images.xcassets */; };
 		9DB6BE0B1A9686FE007FC048 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE091A9686FE007FC048 /* LaunchScreen.xib */; };
 		9DB6BE171A9686FE007FC048 /* My_FoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB6BE161A9686FE007FC048 /* My_FoodsTests.swift */; };
+		9DB6BE221A9687C9007FC048 /* Bacon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE211A9687C9007FC048 /* Bacon.jpg */; };
+		9DB6BE251A9687DE007FC048 /* Cheeseburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE231A9687DE007FC048 /* Cheeseburger.jpg */; };
+		9DB6BE261A9687DE007FC048 /* Cheesecake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE241A9687DE007FC048 /* Cheesecake.jpg */; };
+		9DB6BE291A9687F4007FC048 /* Lasagna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE271A9687F4007FC048 /* Lasagna.jpg */; };
+		9DB6BE2A1A9687F4007FC048 /* Mac and Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE281A9687F4007FC048 /* Mac and Cheese.jpg */; };
+		9DB6BE2F1A96880E007FC048 /* Pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE2B1A96880E007FC048 /* Pizza.jpg */; };
+		9DB6BE301A96880E007FC048 /* Shrimp de jonghe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE2C1A96880E007FC048 /* Shrimp de jonghe.jpg */; };
+		9DB6BE311A96880E007FC048 /* Steak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE2D1A96880E007FC048 /* Steak.jpg */; };
+		9DB6BE321A96880E007FC048 /* Swedish Pancakes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE2E1A96880E007FC048 /* Swedish Pancakes.jpg */; };
+		9DB6BE341A96881E007FC048 /* Wings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE331A96881E007FC048 /* Wings.jpg */; };
+		9DB6BE371A969B0C007FC048 /* index.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB6BE361A969B0C007FC048 /* index.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,17 @@
 		9DB6BE101A9686FE007FC048 /* My FoodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My FoodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB6BE151A9686FE007FC048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB6BE161A9686FE007FC048 /* My_FoodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_FoodsTests.swift; sourceTree = "<group>"; };
+		9DB6BE211A9687C9007FC048 /* Bacon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bacon.jpg; path = "My Foods/Images/Bacon.jpg"; sourceTree = "<group>"; };
+		9DB6BE231A9687DE007FC048 /* Cheeseburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cheeseburger.jpg; path = "My Foods/Images/Cheeseburger.jpg"; sourceTree = "<group>"; };
+		9DB6BE241A9687DE007FC048 /* Cheesecake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cheesecake.jpg; path = "My Foods/Images/Cheesecake.jpg"; sourceTree = "<group>"; };
+		9DB6BE271A9687F4007FC048 /* Lasagna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lasagna.jpg; path = "My Foods/Images/Lasagna.jpg"; sourceTree = "<group>"; };
+		9DB6BE281A9687F4007FC048 /* Mac and Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mac and Cheese.jpg"; path = "My Foods/Images/Mac and Cheese.jpg"; sourceTree = "<group>"; };
+		9DB6BE2B1A96880E007FC048 /* Pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pizza.jpg; path = "My Foods/Images/Pizza.jpg"; sourceTree = "<group>"; };
+		9DB6BE2C1A96880E007FC048 /* Shrimp de jonghe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Shrimp de jonghe.jpg"; path = "My Foods/Images/Shrimp de jonghe.jpg"; sourceTree = "<group>"; };
+		9DB6BE2D1A96880E007FC048 /* Steak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Steak.jpg; path = "My Foods/Images/Steak.jpg"; sourceTree = "<group>"; };
+		9DB6BE2E1A96880E007FC048 /* Swedish Pancakes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swedish Pancakes.jpg"; path = "My Foods/Images/Swedish Pancakes.jpg"; sourceTree = "<group>"; };
+		9DB6BE331A96881E007FC048 /* Wings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wings.jpg; path = "My Foods/Images/Wings.jpg"; sourceTree = "<group>"; };
+		9DB6BE361A969B0C007FC048 /* index.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 		9DB6BDF01A9686FD007FC048 = {
 			isa = PBXGroup;
 			children = (
+				9DB6BE351A96949F007FC048 /* Images */,
 				9DB6BDFB1A9686FE007FC048 /* My Foods */,
 				9DB6BE131A9686FE007FC048 /* My FoodsTests */,
 				9DB6BDFA1A9686FE007FC048 /* Products */,
@@ -113,6 +136,24 @@
 				9DB6BE151A9686FE007FC048 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB6BE351A96949F007FC048 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DB6BE361A969B0C007FC048 /* index.jpg */,
+				9DB6BE331A96881E007FC048 /* Wings.jpg */,
+				9DB6BE2B1A96880E007FC048 /* Pizza.jpg */,
+				9DB6BE2C1A96880E007FC048 /* Shrimp de jonghe.jpg */,
+				9DB6BE2D1A96880E007FC048 /* Steak.jpg */,
+				9DB6BE2E1A96880E007FC048 /* Swedish Pancakes.jpg */,
+				9DB6BE271A9687F4007FC048 /* Lasagna.jpg */,
+				9DB6BE281A9687F4007FC048 /* Mac and Cheese.jpg */,
+				9DB6BE231A9687DE007FC048 /* Cheeseburger.jpg */,
+				9DB6BE241A9687DE007FC048 /* Cheesecake.jpg */,
+				9DB6BE211A9687C9007FC048 /* Bacon.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +236,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB6BE251A9687DE007FC048 /* Cheeseburger.jpg in Resources */,
+				9DB6BE291A9687F4007FC048 /* Lasagna.jpg in Resources */,
+				9DB6BE2A1A9687F4007FC048 /* Mac and Cheese.jpg in Resources */,
+				9DB6BE2F1A96880E007FC048 /* Pizza.jpg in Resources */,
+				9DB6BE321A96880E007FC048 /* Swedish Pancakes.jpg in Resources */,
+				9DB6BE301A96880E007FC048 /* Shrimp de jonghe.jpg in Resources */,
+				9DB6BE371A969B0C007FC048 /* index.jpg in Resources */,
 				9DB6BE061A9686FE007FC048 /* Main.storyboard in Resources */,
+				9DB6BE261A9687DE007FC048 /* Cheesecake.jpg in Resources */,
 				9DB6BE0B1A9686FE007FC048 /* LaunchScreen.xib in Resources */,
+				9DB6BE341A96881E007FC048 /* Wings.jpg in Resources */,
 				9DB6BE081A9686FE007FC048 /* Images.xcassets in Resources */,
+				9DB6BE311A96880E007FC048 /* Steak.jpg in Resources */,
+				9DB6BE221A9687C9007FC048 /* Bacon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
